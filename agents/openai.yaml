@@ -1,0 +1,7 @@
+interface:
+  display_name: "动效视频制作"
+  short_description: "参考已认可成片，制作有创意构图、对象转场与音效的完整 MP4 视频"
+  default_prompt: "使用 $motion-video-production，参考已认可的产品宣传片风格，为我的内容制作完整 MP4 动效视频。"
+
+policy:
+  allow_implicit_invocation: true
