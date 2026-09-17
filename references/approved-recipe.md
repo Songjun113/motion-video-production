@@ -12,6 +12,11 @@ The study's 80.56% and 60.61% are mean online MI trial accuracies for two and th
 
 ## Reproduction and adaptation
 
+- [Actual storyboard](../assets/eeg-finger-control/storyboard.png)
+- [Complete MP4](../assets/eeg-finger-control/reference.mp4)
+- [Runnable renderer](../assets/eeg-finger-control/render_video.py)
+- [Evidence and source notes](../assets/eeg-finger-control/source-notes.md)
+
 Source belongs in `assets/eeg-finger-control/`. Use Python 3.10+, Pillow, NumPy and imageio-ffmpeg. Follow the README for render and QA commands. Copy the example to a writable project before adapting it. Typography uses installed fonts or explicit font overrides.
 
 Preserve varied framing, saturated scene contrast, reading holds, independent object movement, and transitions motivated by visible objects. Adapt scene count, duration, palette, and claims to the new brief. This renderer illustrates one paper; it does not automatically read arbitrary papers.
